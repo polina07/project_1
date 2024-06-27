@@ -1,0 +1,361 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "Jura";
+    src: url(src/fonts/Jura-VariableFont_wght.ttf);
+}
+
+.container{
+    max-width: 1200px;
+    position: relative;
+    margin: 0 auto;
+}
+.header-blur{
+    backdrop-filter: blur(7px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.478);
+}
+
+header .container{
+    position: relative;
+    z-index: 3;
+}
+header{
+    z-index: 2;
+    position: relative;
+    width: 100%;
+    
+}
+.first .container, header .container{
+    display: flex;
+}
+.icon{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.liste{
+    display: flex;
+    margin-left: 230px;
+}
+.liste li{
+    list-style: none;
+    margin-right: 48px;
+    margin-top: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.liste li a{
+    color: white;
+    font-size: 28px;
+    font-weight: 100;
+    text-decoration: none;
+    font-family: "Jura", sans-serif;
+}
+
+body{
+    background-color: black;
+    overflow-x: hidden;
+}
+
+.sing_up{
+    display: inline-block;
+    padding: 12px 20px;
+    border-radius: 4px;
+    background: #E0319E;
+    box-shadow: 7px 8px 4px 0px rgba(56, 24, 38, 0.25) inset;
+    color: #FFF;
+    font-family: "Jura", sans-serif;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 100;
+    transition: .3s;
+    margin-top: 15px;
+    right: 20px;
+}
+
+.left{
+    color: white;
+    padding-top: 120px;
+    position: relative;
+    z-index: 3;
+    font-family: "Jura", sans-serif;
+}
+.right{
+    position: absolute;
+    left: 700px;
+    top: 30px;
+}
+.guitar{
+    position: absolute;
+    top: -385px;
+    right: -250px;
+    width: 1320px;
+
+
+}
+.Title1{
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 118%;
+    color: #fff;
+}
+.Title2{
+    font-weight: 400;
+    font-size: 48px;   
+    margin-top: 12px;
+    margin-bottom: 24px;
+}
+.text1{
+    font-weight: 30;
+    font-size: 20px;
+    margin-top: 50px;
+    width: 300px;
+}
+.btn2{
+    display: inline-block;
+    padding: 12px 40px;
+    border-radius: 4px;
+    background: #E0319E;
+    box-shadow: 7px 8px 4px 0px rgba(56, 24, 38, 0.25) inset;
+    color: #FFF;
+    font-family: "Jura", sans-serif;
+    text-decoration: none;
+    font-size: 44px;
+    font-weight: 400;
+    transition: .3s;
+    margin-top: 50px;
+}
+.offers{
+    margin-top: 470px;
+}
+.offers__title{
+    color: white;
+    font-family: "Jura", sans-serif;
+    font-size: 64px;
+    font-weight: 300;
+    text-align: center;
+}
+.liste2{
+    color: rgb(255, 255, 255);
+    font-family: "Jura", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 25px;
+    margin-left: 50px;
+}
+.offers__pakages{
+    display: flex;
+    gap: 44px;
+    text-align: center;
+    margin-top: 200px;
+    justify-content: center;
+    z-index: 1;
+}
+.euro{
+    color: rgb(255, 255, 255);
+    font-family: "Jura", sans-serif;
+    font-size: 24px;
+    margin-top: 10px;
+}
+.euro span{
+    color: #E0319E;
+    font-family: "Jura", sans-serif;
+    font-size: 64px;
+
+}
+.type_of_offers{
+    font-size: 32px;
+    color: white;
+    font-family: "Jura", sans-serif;
+}
+.offers__item{
+    background-color: rgba(117, 51, 111, 0.5);
+    box-sizing: border-box;
+    border: 2px solid rgb(154, 23, 149);
+    border-radius: 12px;
+    box-shadow: 0px 0px 49.8px 0px rgba(206, 106, 189, 0.25);
+    backdrop-filter: blur(26.2px);
+    height: 450px;
+    width: 330px;
+    padding: 33px;
+    font-family: "Jura", sans-serif;
+    z-index: 1;
+}
+.btn_BUY{
+    border-radius: 6px;
+    box-shadow: inset 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background: rgb(224, 49, 158);
+    padding: 20px;
+    text-decoration: none;
+    font-size: 24px;
+    transition: .3s;
+    font-family: "Jura", sans-serif;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    display: inline-block;
+}
+.offers_shadow{
+    position: absolute;
+    left: -350px;
+    top: -400px;
+
+}
+.purchase{
+    margin-top: 268px;
+    display: flex;
+}
+.purchase__title{
+    color: white;
+    font-family: "Jura", sans-serif;
+    font-size: 64px;
+    font-weight: 300;
+    text-align: center;
+    
+}
+form {
+    
+    flex-direction: column;
+    gap: 10px;
+    
+}
+form input,form button, form select{
+    width: 450px;
+    padding: 15px;
+    box-sizing: border-box;
+    border: none;
+    color: #ffffff;
+    background-color: #762e706e;
+    border-radius: 10px;
+    box-shadow: inset 0px 4px 4px  #00000056;
+    size: 25px;
+    font-size: 25px;
+    font-family: "Jura", sans-serif;
+    margin-bottom: 15px;
+    z-index: 1;
+    
+}
+form button{
+    background: linear-gradient(45deg, #246ABB, #B81DEF, #D52A86)
+}
+
+input::placeholder{ 
+    color: #ffffff;
+}
+.registration{
+    display: flex;
+    align-items: center;
+}
+.registration img{
+    width: 1000px;
+}
+
+.swiper-slide img{
+    width: 100%;   
+}
+.swiper {
+    width: 1000px;
+    height: 700px;
+  }
+.arrow{
+    color: white;
+}
+.footer_description{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    color: rgb(217, 47, 152);
+    font-size: 28px;
+    margin-top: 40px;
+    text-align: right;
+    font-family:  "Jura", sans-serif;
+}
+.footer_description>div p:first-child{
+    margin-bottom: 20px;
+}
+footer{
+    
+    padding-bottom: -100px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 30px;
+    font-family:  "Jura", sans-serif;
+}
+a{
+    color: rgb(217, 47, 152);
+    text-decoration: none;
+}
+
+.everything{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    font-size: 28px;
+}
+
+/*..VIDEO..*/
+
+.any-question-title{
+    color: white;
+    font-family:  "Jura", sans-serif;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 50px;
+    font-size: 64px;
+    font-weight: 300;
+}
+.question-info form{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+  margin-bottom: 100px;
+   top: 0;
+   z-index: 1;
+}
+.video{
+   height: 100%;
+   width: 100%;
+   position: relative;
+   object-fit: cover;
+}
+.video-block{
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+.video-block::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.499);
+    z-index: 1;
+}
+.question{
+    width: 100vw;
+    position: relative;
+}
+.question-info{
+    position: relative;
+    z-index: 1;
+    
+}
